@@ -1,0 +1,34 @@
+0000.003 () Opened log file at time: Thu, 16 Mar 2023 13:16:14 +0000 on https://cavernadastribos.com
+0000.003 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.2 WP: 6.1.1 PHP: 7.4.33 (litespeed, Linux br1000.hostgator.com.br 4.19.150-76.ELK.el7.x86_64 #1 SMP Wed Oct 7 01:33:43 CDT 2020 x86_64) MySQL: 5.7.23-23 (max packet size=268435456) WPLANG: pt_BR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 29M | 32M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.039 () Free space on disk containing Updraft's temporary directory: 449181 MB
+0000.075 () Restore setup, now closing connection and starting restore over AJAX.
+0000.002 () Opened log file at time: Thu, 16 Mar 2023 13:16:16 +0000 on https://cavernadastribos.com
+0000.002 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.2 WP: 6.1.1 PHP: 7.4.33 (litespeed, Linux br1000.hostgator.com.br 4.19.150-76.ELK.el7.x86_64 #1 SMP Wed Oct 7 01:33:43 CDT 2020 x86_64) MySQL: 5.7.23-23 (max packet size=268435456) WPLANG: pt_BR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 27.4M | 30M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.047 () Free space on disk containing Updraft's temporary directory: 449181 MB
+0000.049 () Ensuring WP_Filesystem is setup for a restore
+0000.050 () WP_Filesystem is setup and ready for a restore
+0000.064 () Restore job started. Entities to restore: plugins. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.067 () Entity: plugins
+0000.067 () restore_backup(backup_file=backup_2023-03-16-0358_Caverna_das_Tribos_caf5651ab9d8-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:55:"/home3/vpnchu28/cavernadastribos.com/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=1)
+0000.067 () Desempacotando o backup... (backup_2023-03-16-0358_Caverna_das_Tribos_caf5651ab9d8-plugins.zip, 52.7 MB)
+0000.071 () Unzipping backup_2023-03-16-0358_Caverna_das_Tribos_caf5651ab9d8-plugins.zip to /home3/vpnchu28/cavernadastribos.com/wp-content/upgrade/b0ca601d/ using UpdraftPlus_ZipArchive, starting index 0
+0000.281 () Unzip progress: 1402 out of 8653 files (208 KB, plugins/elementor/assets/lib/eicons/fonts/eicons.eot)
+0000.695 () Unzip progress: 2403 out of 8653 files (26.8 MB, plugins/wp-fastest-cache/js/language.js)
+0001.105 () Unzip progress: 3404 out of 8653 files (52.1 MB, plugins/wpforms-lite/src/Migrations/Upgrade177.php)
+0001.379 () Unzip progress: 4405 out of 8653 files (66.2 MB, plugins/updraftplus/vendor/rackspace/php-opencloud/lib/OpenCloud/Common/Resource/BaseResource.php)
+0001.680 () Unzip progress: 5406 out of 8653 files (76.1 MB, plugins/wordpress-seo/src/presenters/admin/badge-presenter.php)
+0002.222 () Unzip progress: 6407 out of 8653 files (105.2 MB, plugins/breeze/assets/images/spam_comments.png)
+0002.544 () Unzip progress: 7408 out of 8653 files (118.4 MB, plugins/master-addons/addons/ma-timeline/ma-timeline.php)
+0003.022 () Unzip progress: 8409 out of 8653 files (141.3 MB, plugins/limit-login-attempts-reloaded/assets/img/flags/ST.png)
+0003.091 () Unzip progress: 8653 out of 8653 files (141.8 MB, plugins/master-addons/lib/freemius/start.php)
+0003.106 () Moving old data: filesystem method / updraft_dir is potentially possible
+0003.106 () Moving old data: can potentially use wp_filesystem method / -old
+0003.106 () Movendo dados antigos para fora do caminho...
+0004.530 () Top-level entities being moved: uipress-lite, elementor, cookie-law-info, wp-fastest-cache, wps-hide-login, wpforms-lite, updraftplus, autoptimize, pods, index.php, advanced-custom-fields, wordpress-seo, astra-sites, breeze, ewww-image-optimizer, sticky-header-effects-for-elementor, async-javascript, custom-field-suite, master-addons, limit-login-attempts-reloaded, header-footer-elementor
+0004.534 () Movendo backup desempacotado para o local...
+0004.695 () Top-level entities being moved: uipress-lite, elementor, cookie-law-info, wp-fastest-cache, wps-hide-login, wpforms-lite, updraftplus, autoptimize, index.php, wordpress-seo, astra-sites, breeze, ewww-image-optimizer, sticky-header-effects-for-elementor, async-javascript, master-addons, limit-login-attempts-reloaded, header-footer-elementor
+0004.698 () Limpando a sujeira...
+0004.711 () Elementor's clear cache method exists and will be executed
+0004.720 () Purging cache directory: /home3/vpnchu28/cavernadastribos.com/wp-content/cache
+0004.823 () Restore successful!
+0004.823 () Restore successful

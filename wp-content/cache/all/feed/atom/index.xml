@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+	xmlns="http://www.w3.org/2005/Atom"
+	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	xml:lang="pt-BR"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+	<title type="text">Caverna das Tribos</title>
+	<subtitle type="text">Caverna das Tribos</subtitle>
+
+	<updated>2023-03-07T14:18:41Z</updated>
+
+	<link rel="alternate" type="text/html" href="https://cavernadastribos.com/" />
+	<id>https://cavernadastribos.com/feed/atom/</id>
+	<link rel="self" type="application/atom+xml" href="https://cavernadastribos.com/feed/atom/" />
+
+	<generator uri="https://wordpress.org/" version="6.2">WordPress</generator>
+<icon>https://cavernadastribos.com/wp-content/uploads/2023/03/cropped-favicon-32x32.png</icon>
+	<entry>
+		<author>
+			<name>Leonardo</name>
+							<uri>https://cavernadastribos.com</uri>
+						</author>
+
+		<title type="html"><![CDATA[Olá, mundo!]]></title>
+		<link rel="alternate" type="text/html" href="https://cavernadastribos.com/2023/03/07/ola-mundo/" />
+
+		<id>https://cavernadastribos.com/?p=1</id>
+		<updated>2023-03-07T14:18:41Z</updated>
+		<published>2023-03-07T14:18:41Z</published>
+		<category scheme="https://cavernadastribos.com/" term="Sem categoria" />
+		<summary type="html"><![CDATA[Boas-vindas ao WordPress. Esse é o seu primeiro post. Edite-o ou exclua-o, e então comece a escrever!]]></summary>
+
+					<content type="html" xml:base="https://cavernadastribos.com/2023/03/07/ola-mundo/"><![CDATA[
+<p>Boas-vindas ao WordPress. Esse é o seu primeiro post. Edite-o ou exclua-o, e então comece a escrever!</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://cavernadastribos.com/2023/03/07/ola-mundo/#comments" thr:count="1" />
+			<link rel="replies" type="application/atom+xml" href="https://cavernadastribos.com/2023/03/07/ola-mundo/feed/atom/" thr:count="1" />
+			<thr:total>1</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Leonardo</name>
+							<uri>https://cavernadastribos.com</uri>
+						</author>
+
+		<title type="html"><![CDATA[Nulla aliquam egestas sit quisque augue faucibus]]></title>
+		<link rel="alternate" type="text/html" href="https://cavernadastribos.com/2021/02/15/nulla-aliquam-egestas-sit-quisque-augue-faucibus/" />
+
+		<id>https://cavernadastribos.com/2021/02/15/nulla-aliquam-egestas-sit-quisque-augue-faucibus/</id>
+		<updated>2021-02-15T12:53:26Z</updated>
+		<published>2021-02-15T12:53:26Z</published>
+		<category scheme="https://cavernadastribos.com/" term="Uncategorized" />
+		<summary type="html"><![CDATA[Semper vitae vestibulum elementum morbi ut fermentum molestie pellentesque sapien proin in amet ipsum bibendum tellus diam, magna ornare sit tellus iaculis feugiat et id orci sociis mattis massa pharetra ante purus nullam tellus nisl nec. In sit facilisis euismod ullamcorper ipsum morbi ut ornare elit pretium non pulvinar vitae dapibus volutpat risus, tellus diam &#8230;<p class="read-more"> <a class="" href="https://cavernadastribos.com/2021/02/15/nulla-aliquam-egestas-sit-quisque-augue-faucibus/"> <span class="screen-reader-text">Nulla aliquam egestas sit quisque augue faucibus</span> Leia mais &#187;</a></p>]]></summary>
+
+					<content type="html" xml:base="https://cavernadastribos.com/2021/02/15/nulla-aliquam-egestas-sit-quisque-augue-faucibus/"><![CDATA[
+<p><strong>Semper vitae vestibulum elementum morbi ut fermentum molestie pellentesque sapien proin in amet ipsum bibendum tellus diam, magna ornare sit tellus iaculis feugiat et id orci sociis mattis massa pharetra ante purus nullam tellus nisl nec.</strong></p>
+
+
+
+<p>In sit facilisis euismod ullamcorper ipsum morbi ut ornare elit pretium non pulvinar vitae dapibus volutpat risus, tellus diam ornare enim felis arcu dapibus nunc nibh vestibulum, egestas faucibus viverra tempus tortor leo etiam montes, hac amet nisl eu, nulla id egestas nunc facilisi amet malesuada consectetur egestas. Ut hendrerit porttitor turpis quis amet convallis elit ornare dui ultrices nulla mattis aliquam bibendum augue ullamcorper in massa egestas sapien, interdum eu amet diam at velit ultricies in amet et hendrerit faucibus urna, ut pharetra etiam lacus velit sit faucibus ac, eget iaculis risus, lobortis pellentesque adipiscing.</p>
+
+
+
+<p>Ut sed enim, consectetur enim tortor vulputate viverra blandit eleifend id lobortis sit gravida nisi eu egestas scelerisque et, morbi nulla gravida nisi et purus sociis in diam orci viverra vel, cum nunc, urna tristique malesuada est augue egestas sem fusce scelerisque odio nisi risus volutpat odio nulla.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://cavernadastribos.com/2021/02/15/nulla-aliquam-egestas-sit-quisque-augue-faucibus/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://cavernadastribos.com/2021/02/15/nulla-aliquam-egestas-sit-quisque-augue-faucibus/feed/atom/" thr:count="0" />
+			<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Leonardo</name>
+							<uri>https://cavernadastribos.com</uri>
+						</author>
+
+		<title type="html"><![CDATA[Pellentesque adipiscing iaculis hac aliquam]]></title>
+		<link rel="alternate" type="text/html" href="https://cavernadastribos.com/2021/02/15/pellentesque-adipiscing-iaculis-hac-aliquam/" />
+
+		<id>https://cavernadastribos.com/2021/02/15/pellentesque-adipiscing-iaculis-hac-aliquam/</id>
+		<updated>2021-02-15T12:52:46Z</updated>
+		<published>2021-02-15T12:52:46Z</published>
+		<category scheme="https://cavernadastribos.com/" term="Uncategorized" />
+		<summary type="html"><![CDATA[Semper vitae vestibulum elementum morbi ut fermentum molestie pellentesque sapien proin in amet ipsum bibendum tellus diam, magna ornare sit tellus iaculis feugiat et id orci sociis mattis massa pharetra ante purus nullam tellus nisl nec. In sit facilisis euismod ullamcorper ipsum morbi ut ornare elit pretium non pulvinar vitae dapibus volutpat risus, tellus diam &#8230;<p class="read-more"> <a class="" href="https://cavernadastribos.com/2021/02/15/pellentesque-adipiscing-iaculis-hac-aliquam/"> <span class="screen-reader-text">Pellentesque adipiscing iaculis hac aliquam</span> Leia mais &#187;</a></p>]]></summary>
+
+					<content type="html" xml:base="https://cavernadastribos.com/2021/02/15/pellentesque-adipiscing-iaculis-hac-aliquam/"><![CDATA[
+<p><strong>Semper vitae vestibulum elementum morbi ut fermentum molestie pellentesque sapien proin in amet ipsum bibendum tellus diam, magna ornare sit tellus iaculis feugiat et id orci sociis mattis massa pharetra ante purus nullam tellus nisl nec.</strong></p>
+
+
+
+<p>In sit facilisis euismod ullamcorper ipsum morbi ut ornare elit pretium non pulvinar vitae dapibus volutpat risus, tellus diam ornare enim felis arcu dapibus nunc nibh vestibulum, egestas faucibus viverra tempus tortor leo etiam montes, hac amet nisl eu, nulla id egestas nunc facilisi amet malesuada consectetur egestas. Ut hendrerit porttitor turpis quis amet convallis elit ornare dui ultrices nulla mattis aliquam bibendum augue ullamcorper in massa egestas sapien, interdum eu amet diam at velit ultricies in amet et hendrerit faucibus urna, ut pharetra etiam lacus velit sit faucibus ac, eget iaculis risus, lobortis pellentesque adipiscing.</p>
+
+
+
+<p>Ut sed enim, consectetur enim tortor vulputate viverra blandit eleifend id lobortis sit gravida nisi eu egestas scelerisque et, morbi nulla gravida nisi et purus sociis in diam orci viverra vel, cum nunc, urna tristique malesuada est augue egestas sem fusce scelerisque odio nisi risus volutpat odio nulla.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://cavernadastribos.com/2021/02/15/pellentesque-adipiscing-iaculis-hac-aliquam/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://cavernadastribos.com/2021/02/15/pellentesque-adipiscing-iaculis-hac-aliquam/feed/atom/" thr:count="0" />
+			<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Leonardo</name>
+							<uri>https://cavernadastribos.com</uri>
+						</author>
+
+		<title type="html"><![CDATA[Porta magna integer tellus]]></title>
+		<link rel="alternate" type="text/html" href="https://cavernadastribos.com/2021/02/15/porta-magna-integer-tellus/" />
+
+		<id>https://cavernadastribos.com/2021/02/15/porta-magna-integer-tellus/</id>
+		<updated>2021-02-15T12:52:04Z</updated>
+		<published>2021-02-15T12:52:04Z</published>
+		<category scheme="https://cavernadastribos.com/" term="Uncategorized" />
+		<summary type="html"><![CDATA[Semper vitae vestibulum elementum morbi ut fermentum molestie pellentesque sapien proin in amet ipsum bibendum tellus diam, magna ornare sit tellus iaculis feugiat et id orci sociis mattis massa pharetra ante purus nullam tellus nisl nec. In sit facilisis euismod ullamcorper ipsum morbi ut ornare elit pretium non pulvinar vitae dapibus volutpat risus, tellus diam &#8230;<p class="read-more"> <a class="" href="https://cavernadastribos.com/2021/02/15/porta-magna-integer-tellus/"> <span class="screen-reader-text">Porta magna integer tellus</span> Leia mais &#187;</a></p>]]></summary>
+
+					<content type="html" xml:base="https://cavernadastribos.com/2021/02/15/porta-magna-integer-tellus/"><![CDATA[
+<p><strong>Semper vitae vestibulum elementum morbi ut fermentum molestie pellentesque sapien proin in amet ipsum bibendum tellus diam, magna ornare sit tellus iaculis feugiat et id orci sociis mattis massa pharetra ante purus nullam tellus nisl nec.</strong></p>
+
+
+
+<p>In sit facilisis euismod ullamcorper ipsum morbi ut ornare elit pretium non pulvinar vitae dapibus volutpat risus, tellus diam ornare enim felis arcu dapibus nunc nibh vestibulum, egestas faucibus viverra tempus tortor leo etiam montes, hac amet nisl eu, nulla id egestas nunc facilisi amet malesuada consectetur egestas. Ut hendrerit porttitor turpis quis amet convallis elit ornare dui ultrices nulla mattis aliquam bibendum augue ullamcorper in massa egestas sapien, interdum eu amet diam at velit ultricies in amet et hendrerit faucibus urna, ut pharetra etiam lacus velit sit faucibus ac, eget iaculis risus, lobortis pellentesque adipiscing.</p>
+
+
+
+<p>Ut sed enim, consectetur enim tortor vulputate viverra blandit eleifend id lobortis sit gravida nisi eu egestas scelerisque et, morbi nulla gravida nisi et purus sociis in diam orci viverra vel, cum nunc, urna tristique malesuada est augue egestas sem fusce scelerisque odio nisi risus volutpat odio nulla.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://cavernadastribos.com/2021/02/15/porta-magna-integer-tellus/#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://cavernadastribos.com/2021/02/15/porta-magna-integer-tellus/feed/atom/" thr:count="0" />
+			<thr:total>0</thr:total>
+			</entry>
+	</feed>

@@ -1,0 +1,533 @@
+0000.001 (0) Opened log file at time: Thu, 06 Apr 2023 04:57:43 +0000 on http://cavernadastribos.com
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.3 WP: 6.2 PHP: 7.4.33 (litespeed, Linux br1000.hostgator.com.br 4.19.150-76.ELK.el7.x86_64 #1 SMP Wed Oct 7 01:33:43 CDT 2020 x86_64) MySQL: 5.7.23-23 (max packet size=268435456) WPLANG: pt_BR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 25.3M | 28M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.046 (0) Free space on disk containing Updraft's temporary directory: 438914.1 MB
+0000.049 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.050 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.063 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1680671694, seconds_ago=85369)
+0000.064 (0) Set semaphore last lock (fd) time to 2023-04-06 04:57:43
+0000.065 (0) Semaphore lock (fd) complete
+0000.067 (0) Backup run: resumption=0, nonce=ea4140330c57, file_nonce=ea4140330c57 begun at=1680757063 (0s ago), job type=backup
+0000.068 (0) Scheduling a resumption (1) after 300 seconds (1680757363) in case this run gets aborted
+0000.101 (0) Checking if we have a zip executable available
+0000.102 (0) Testing: /usr/bin/zip
+0000.112 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.115 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.116 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.118 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.119 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.126 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.127 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.145 (0) Working binary zip found: /usr/bin/zip
+0000.147 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.148 (0) Creation of backups of directories: beginning
+0000.151 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.079 (0) Total entities for the zip file: 3078 directories, 12305 files (0 skipped as non-modified), 214.6 MB
+0001.084 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.088 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.091 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.094 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.097 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.100 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.103 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.105 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.1 MB, 12305 files batched, 785 (785) added so far); re-opening (prior size: 0 KB)
+0002.993 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: size is now: 8.20 MB
+0002.995 (0) A useful amount of data was added after this amount of zip processing: 3.2 s (normalised: 3.2 s, rate: 8113.9 KB/s)
+0002.996 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.1681730747223, normalised_time=3.155080305068, max_time=2.9947550296783, data points known=1, old_max_bytes=26214400, new_max_bytes=49851789)
+0002.998 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 800 files added (on-disk size: 8371.2 KB)
+0003.001 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 900 files added (on-disk size: 8371.2 KB)
+0003.003 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 1000 files added (on-disk size: 8371.2 KB)
+0003.005 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 1100 files added (on-disk size: 8371.2 KB)
+0003.007 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 1200 files added (on-disk size: 8371.2 KB)
+0003.014 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 1300 files added (on-disk size: 8371.2 KB)
+0003.018 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 1400 files added (on-disk size: 8371.2 KB)
+0003.020 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 1500 files added (on-disk size: 8371.2 KB)
+0003.023 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 1600 files added (on-disk size: 8371.2 KB)
+0003.026 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 1700 files added (on-disk size: 8371.2 KB)
+0003.028 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.7 MB, 12305 files batched, 1001 (1786) added so far); re-opening (prior size: 8371.2 KB)
+0004.061 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: size is now: 11.90 MB
+0004.064 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 1800 files added (on-disk size: 12196.5 KB)
+0004.067 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 1900 files added (on-disk size: 12196.5 KB)
+0004.070 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 2000 files added (on-disk size: 12196.5 KB)
+0004.072 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 2100 files added (on-disk size: 12196.5 KB)
+0004.074 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 2200 files added (on-disk size: 12196.5 KB)
+0004.076 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 2300 files added (on-disk size: 12196.5 KB)
+0004.078 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 2400 files added (on-disk size: 12196.5 KB)
+0004.080 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 2500 files added (on-disk size: 12196.5 KB)
+0004.082 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 2600 files added (on-disk size: 12196.5 KB)
+0004.083 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 2700 files added (on-disk size: 12196.5 KB)
+0004.085 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (27.9 MB, 12305 files batched, 1001 (2787) added so far); re-opening (prior size: 12196.5 KB)
+0006.025 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: size is now: 21.60 MB
+0006.028 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 2800 files added (on-disk size: 22140.9 KB)
+0006.030 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 2900 files added (on-disk size: 22140.9 KB)
+0006.033 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 3000 files added (on-disk size: 22140.9 KB)
+0006.034 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 3100 files added (on-disk size: 22140.9 KB)
+0006.036 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 3200 files added (on-disk size: 22140.9 KB)
+0006.038 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 3300 files added (on-disk size: 22140.9 KB)
+0006.040 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 3400 files added (on-disk size: 22140.9 KB)
+0006.042 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 3500 files added (on-disk size: 22140.9 KB)
+0006.044 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 3600 files added (on-disk size: 22140.9 KB)
+0006.045 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 3700 files added (on-disk size: 22140.9 KB)
+0006.047 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.7 MB, 12305 files batched, 1001 (3788) added so far); re-opening (prior size: 22140.9 KB)
+0006.997 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 3800 files added (on-disk size: 25501 KB)
+0006.999 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 3900 files added (on-disk size: 25501 KB)
+0007.001 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 4000 files added (on-disk size: 25501 KB)
+0007.003 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 4100 files added (on-disk size: 25501 KB)
+0007.005 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 4200 files added (on-disk size: 25501 KB)
+0007.006 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 4300 files added (on-disk size: 25501 KB)
+0007.008 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 4400 files added (on-disk size: 25501 KB)
+0007.009 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 4500 files added (on-disk size: 25501 KB)
+0007.010 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 4600 files added (on-disk size: 25501 KB)
+0007.012 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 4700 files added (on-disk size: 25501 KB)
+0007.013 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.6 MB, 12305 files batched, 1001 (4789) added so far); re-opening (prior size: 25501 KB)
+0007.706 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 4800 files added (on-disk size: 27947.8 KB)
+0007.709 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 4900 files added (on-disk size: 27947.8 KB)
+0007.712 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 5000 files added (on-disk size: 27947.8 KB)
+0007.715 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 5100 files added (on-disk size: 27947.8 KB)
+0007.718 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 5200 files added (on-disk size: 27947.8 KB)
+0007.722 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 5300 files added (on-disk size: 27947.8 KB)
+0007.725 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 5400 files added (on-disk size: 27947.8 KB)
+0007.728 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 5500 files added (on-disk size: 27947.8 KB)
+0007.731 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 5600 files added (on-disk size: 27947.8 KB)
+0007.733 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 5700 files added (on-disk size: 27947.8 KB)
+0007.736 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (18 MB, 12305 files batched, 1001 (5790) added so far); re-opening (prior size: 27947.8 KB)
+0008.806 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 5800 files added (on-disk size: 30188.9 KB)
+0008.810 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 5900 files added (on-disk size: 30188.9 KB)
+0008.812 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 6000 files added (on-disk size: 30188.9 KB)
+0008.814 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 6100 files added (on-disk size: 30188.9 KB)
+0008.816 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 6200 files added (on-disk size: 30188.9 KB)
+0008.818 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 6300 files added (on-disk size: 30188.9 KB)
+0008.821 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 6400 files added (on-disk size: 30188.9 KB)
+0008.823 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 6500 files added (on-disk size: 30188.9 KB)
+0008.825 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 6600 files added (on-disk size: 30188.9 KB)
+0008.827 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 6700 files added (on-disk size: 30188.9 KB)
+0008.828 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.8 MB, 12305 files batched, 1001 (6791) added so far); re-opening (prior size: 30188.9 KB)
+0009.519 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 6800 files added (on-disk size: 31891.8 KB)
+0009.522 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 6900 files added (on-disk size: 31891.8 KB)
+0009.524 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 7000 files added (on-disk size: 31891.8 KB)
+0009.526 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 7100 files added (on-disk size: 31891.8 KB)
+0009.529 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 7200 files added (on-disk size: 31891.8 KB)
+0009.531 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 7300 files added (on-disk size: 31891.8 KB)
+0009.533 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 7400 files added (on-disk size: 31891.8 KB)
+0009.535 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 7500 files added (on-disk size: 31891.8 KB)
+0009.537 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 7600 files added (on-disk size: 31891.8 KB)
+0009.538 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 7700 files added (on-disk size: 31891.8 KB)
+0009.540 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.3 MB, 12305 files batched, 1001 (7792) added so far); re-opening (prior size: 31891.8 KB)
+0010.468 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 7800 files added (on-disk size: 35099.4 KB)
+0010.470 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 7900 files added (on-disk size: 35099.4 KB)
+0010.472 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 8000 files added (on-disk size: 35099.4 KB)
+0010.473 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 8100 files added (on-disk size: 35099.4 KB)
+0010.475 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 8200 files added (on-disk size: 35099.4 KB)
+0010.477 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 8300 files added (on-disk size: 35099.4 KB)
+0010.478 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 8400 files added (on-disk size: 35099.4 KB)
+0010.480 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 8500 files added (on-disk size: 35099.4 KB)
+0010.482 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 8600 files added (on-disk size: 35099.4 KB)
+0010.483 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 8700 files added (on-disk size: 35099.4 KB)
+0010.485 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (26 MB, 12305 files batched, 1001 (8793) added so far); re-opening (prior size: 35099.4 KB)
+0012.593 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: size is now: 44.50 MB
+0012.595 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 8800 files added (on-disk size: 45544.7 KB)
+0012.597 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 8900 files added (on-disk size: 45544.7 KB)
+0012.599 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 9000 files added (on-disk size: 45544.7 KB)
+0012.601 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 9100 files added (on-disk size: 45544.7 KB)
+0012.603 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 9200 files added (on-disk size: 45544.7 KB)
+0012.605 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 9300 files added (on-disk size: 45544.7 KB)
+0012.607 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 9400 files added (on-disk size: 45544.7 KB)
+0012.609 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 9500 files added (on-disk size: 45544.7 KB)
+0012.611 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 9600 files added (on-disk size: 45544.7 KB)
+0012.613 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 9700 files added (on-disk size: 45544.7 KB)
+0012.616 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (30.1 MB, 12305 files batched, 1001 (9794) added so far); re-opening (prior size: 45544.7 KB)
+0014.966 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: size is now: 60.80 MB
+0014.971 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 9800 files added (on-disk size: 62221.8 KB)
+0014.974 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 9900 files added (on-disk size: 62221.8 KB)
+0014.977 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 10000 files added (on-disk size: 62221.8 KB)
+0014.980 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 10100 files added (on-disk size: 62221.8 KB)
+0014.983 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 10200 files added (on-disk size: 62221.8 KB)
+0014.986 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 10300 files added (on-disk size: 62221.8 KB)
+0014.988 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 10400 files added (on-disk size: 62221.8 KB)
+0014.991 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 10500 files added (on-disk size: 62221.8 KB)
+0014.995 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 10600 files added (on-disk size: 62221.8 KB)
+0014.998 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 10700 files added (on-disk size: 62221.8 KB)
+0015.000 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.6 MB, 12305 files batched, 1001 (10795) added so far); re-opening (prior size: 62221.8 KB)
+0015.939 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 10800 files added (on-disk size: 66211 KB)
+0015.942 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 10900 files added (on-disk size: 66211 KB)
+0015.946 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 11000 files added (on-disk size: 66211 KB)
+0015.949 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 11100 files added (on-disk size: 66211 KB)
+0015.952 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 11200 files added (on-disk size: 66211 KB)
+0015.955 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 11300 files added (on-disk size: 66211 KB)
+0015.958 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 11400 files added (on-disk size: 66211 KB)
+0015.961 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 11500 files added (on-disk size: 66211 KB)
+0015.964 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 11600 files added (on-disk size: 66211 KB)
+0015.967 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 11700 files added (on-disk size: 66211 KB)
+0015.970 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (19.6 MB, 12305 files batched, 1001 (11796) added so far); re-opening (prior size: 66211 KB)
+0017.232 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: size is now: 79.30 MB
+0017.235 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 11800 files added (on-disk size: 81224.9 KB)
+0017.238 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 11900 files added (on-disk size: 81224.9 KB)
+0017.241 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 12000 files added (on-disk size: 81224.9 KB)
+0017.244 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 12100 files added (on-disk size: 81224.9 KB)
+0017.246 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 12200 files added (on-disk size: 81224.9 KB)
+0017.249 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.tmp: 12300 files added (on-disk size: 81224.9 KB)
+0018.426 (0) Creating zip file manifest (backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.list-temp.tmp)
+0018.452 (0) Successfully created zip file manifest (size: 1036134)
+0019.471 (0) Created plugins zip (0) - 85559.8 KB in 19.3 s (4437.5 KB/s) (sha1: 08ec43594b58177bd71820ac273995c84199f3fe, sha256: 87f5ba09e645120108022b7a364783d378b4cd46c1659e3db38fc46b328552b9)
+0019.487 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0019.487 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-6eb940244bb147faf491488ccee20510)
+0021.413 (0) Google Drive: quota usage: used=290.1 MB, total=15360 MB, available=15069.9 MB
+0021.414 (0) Google Drive: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip: Attempting to upload to Google Drive (into folder id: 1_m0x2U2PJ5C9GUqXyDj96A8hj8Y0285v)
+0021.792 (0) Googledrive chunked upload: 1.2 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 28.5 / 46)
+0021.945 (0) Googledrive chunked upload: 3.6 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 28.5 / 46)
+0022.126 (0) Googledrive chunked upload: 8.4 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 28.5 / 46)
+0022.403 (0) Googledrive chunked upload: 18 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 28.5 / 46)
+0022.720 (0) Googledrive chunked upload: 37.1 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 28.5 / 46)
+0023.235 (0) Googledrive chunked upload: 75.4 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 28.5 / 46)
+0024.817 (0) Googledrive chunked upload: 100 % uploaded (66060288)
+0024.826 (0) Google Drive: OK: Archive backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip uploaded in 3.41 seconds
+0024.827 (0) Recording as successfully uploaded: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip
+0024.842 (0) Deleting local file: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip: OK
+0024.847 (0) Beginning creation of dump of themes (split every: 400 MB)
+0024.984 (0) Total entities for the zip file: 311 directories, 749 files (0 skipped as non-modified), 25.8 MB
+0024.987 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0024.989 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0024.991 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0024.993 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0024.995 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0024.997 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0024.998 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0026.943 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-themes.zip.tmp: size is now: 8.10 MB
+0026.959 (0) Creating zip file manifest (backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-themes.zip.list-temp.tmp)
+0026.962 (0) Successfully created zip file manifest (size: 64825)
+0027.074 (0) Created themes zip (0) - 8290.9 KB in 2.2 s (3806.9 KB/s) (sha1: f74e199b72fa5e4d2ec2ec61a927a31013170ff2, sha256: cd8518837d4c3ba7f46fcca53af7cf81ad74786164943089b58d424b51e75bf9)
+0027.079 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0027.080 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-6eb940244bb147faf491488ccee20510)
+0027.193 (0) Google Drive: quota usage: used=373.7 MB, total=15360 MB, available=14986.3 MB
+0027.194 (0) Google Drive: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-themes.zip: Attempting to upload to Google Drive (into folder id: 1_m0x2U2PJ5C9GUqXyDj96A8hj8Y0285v)
+0027.602 (0) Googledrive chunked upload: 12.4 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 26.6 / 44)
+0027.781 (0) Googledrive chunked upload: 37.1 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 26.6 / 44)
+0027.976 (0) Googledrive chunked upload: 86.5 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 26.6 / 44)
+0028.868 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0028.871 (0) Google Drive: OK: Archive backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-themes.zip uploaded in 1.68 seconds
+0028.872 (0) Recording as successfully uploaded: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-themes.zip
+0028.876 (0) Deleting local file: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-themes.zip: OK
+0028.881 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0028.882 (0) Looking for candidates to backup in: /home3/vpnchu28/cavernadastribos.com/wp-content/uploads
+0028.882 (0) finding files: ao_ccss: adding to list (1)
+0028.883 (0) finding files: .htaccess: adding to list (2)
+0028.883 (0) finding files: elementor: adding to list (3)
+0028.884 (0) finding files: 2021: adding to list (4)
+0028.885 (0) finding files: essential-addons-elementor: adding to list (5)
+0028.886 (0) finding files: wpforms: adding to list (6)
+0028.886 (0) finding files: 2023: adding to list (7)
+0028.887 (0) finding files: webp-express-test-conversion.webp: adding to list (8)
+0028.888 (0) finding files: astra-sites: adding to list (9)
+0028.889 (0) finding files: theplus-addons: adding to list (10)
+0028.889 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0028.948 (0) Total entities for the zip file: 14 directories, 255 files (0 skipped as non-modified), 26.6 MB
+0028.951 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0028.953 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0029.836 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-uploads.zip.tmp: size is now: 24.20 MB
+0029.849 (0) Creating zip file manifest (backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-uploads.zip.list-temp.tmp)
+0029.851 (0) Successfully created zip file manifest (size: 18409)
+0030.235 (0) Created uploads zip (0) - 24807.2 KB in 1.3 s (19146.9 KB/s) (sha1: 4a7069f87a8b87b7ee7c7b3c8a3ba9aed414e54e, sha256: 5fcfe6fc78924ff453f451f0ab1818e16f992fb0f7167d955b74e33c9ed5f6a5)
+0030.239 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0030.239 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-6eb940244bb147faf491488ccee20510)
+0030.354 (0) Google Drive: quota usage: used=381.8 MB, total=15360 MB, available=14978.2 MB
+0030.355 (0) Google Drive: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-uploads.zip: Attempting to upload to Google Drive (into folder id: 1_m0x2U2PJ5C9GUqXyDj96A8hj8Y0285v)
+0030.727 (0) Googledrive chunked upload: 4.1 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 26.6 / 44)
+0030.898 (0) Googledrive chunked upload: 12.4 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 26.6 / 44)
+0031.088 (0) Googledrive chunked upload: 28.9 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 26.6 / 44)
+0031.377 (0) Googledrive chunked upload: 61.9 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 26.6 / 44)
+0032.441 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0032.443 (0) Google Drive: OK: Archive backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-uploads.zip uploaded in 2.09 seconds
+0032.445 (0) Recording as successfully uploaded: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-uploads.zip
+0032.453 (0) Deleting local file: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-uploads.zip: OK
+0032.456 (0) Beginning backup of other directories found in the content directory (index: 0)
+0032.457 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0032.458 (0) Looking for candidates to backup in: /home3/vpnchu28/cavernadastribos.com/wp-content
+0032.458 (0) finding files: plugins-old: adding to list (1)
+0032.459 (0) finding files: cache: skipping: excluded by options
+0032.459 (0) finding files: advanced-cache.php: adding to list (2)
+0032.460 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0032.460 (0) finding files: themes: skipping: this is the themes directory
+0032.461 (0) finding files: languages: adding to list (3)
+0032.461 (0) finding files: plugins: skipping: this is the plugins directory
+0032.462 (0) finding files: index.php: adding to list (4)
+0032.462 (0) finding files: webp-express: adding to list (5)
+0032.462 (0) finding files: updraft: skipping: this is the updraft directory
+0032.463 (0) finding files: uploads: skipping: this is the uploads directory
+0032.463 (0) finding files: upgrade: skipping: excluded by options
+0032.464 (0) finding files: w3tc-config: adding to list (6)
+0032.464 (0) finding files: ewww: adding to list (7)
+0032.464 (0) finding files: autoptimize_404_handler.php: adding to list (8)
+0032.574 (0) Total entities for the zip file: 55 directories, 677 files (0 skipped as non-modified), 36.7 MB
+0032.578 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0032.581 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0032.584 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0032.587 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-others.zip.tmp: 400 files added (on-disk size: 0 KB)
+0032.590 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-others.zip.tmp: 500 files added (on-disk size: 0 KB)
+0032.593 (0) Zip: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-others.zip.tmp: 600 files added (on-disk size: 0 KB)
+0034.199 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-others.zip.tmp: size is now: 26.80 MB
+0034.210 (0) Creating zip file manifest (backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-others.zip.list-temp.tmp)
+0034.213 (0) Successfully created zip file manifest (size: 55033)
+0034.557 (0) Created others zip (0) - 27469.9 KB in 2 s (13582.9 KB/s) (sha1: 19d4ed363d251a4069d9c2cd0c3c2af293feabb4, sha256: d8ce3da2539864bd0322f7c809fe4f3e1ddfccae123eaea59966661cfb16f6d0)
+0034.560 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0034.561 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-6eb940244bb147faf491488ccee20510)
+0034.690 (0) Google Drive: quota usage: used=406 MB, total=15360 MB, available=14954 MB
+0034.691 (0) Google Drive: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-others.zip: Attempting to upload to Google Drive (into folder id: 1_m0x2U2PJ5C9GUqXyDj96A8hj8Y0285v)
+0035.013 (0) Googledrive chunked upload: 3.7 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 26.6 / 44)
+0035.200 (0) Googledrive chunked upload: 11.2 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 26.6 / 44)
+0035.401 (0) Googledrive chunked upload: 26.1 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 26.6 / 44)
+0035.641 (0) Googledrive chunked upload: 55.9 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 26.6 / 44)
+0036.784 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0036.787 (0) Google Drive: OK: Archive backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-others.zip uploaded in 2.09 seconds
+0036.787 (0) Recording as successfully uploaded: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-others.zip
+0036.796 (0) Deleting local file: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-others.zip: OK
+0036.818 (0) Saving backup status to database (elements: 8)
+0036.821 (0) Beginning creation of database dump (WordPress DB)
+0036.823 (0) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0036.825 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0036.858 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\n/*!50717 SELECT COUNT(*) INTO @rocksdb_has_p_s_session_variables FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'performance_schema' AND TABL (truncated - 2594 bytes total)
+0036.861 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0036.969 (0) Table wp2d_options: Total expected rows (via COUNT): 686
+0037.153 (0) Table wp2d_options: Rows added in this batch (next record: 15191): 682 (uncompressed bytes in this segment=6643889) in 0.28 seconds
+0037.158 (0) Table wp2d_options: finishing file(s) (2, 565.8 KB)
+0037.164 (0) Table wp2d_users: Total expected rows (via COUNT): 3
+0037.165 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0037.168 (0) Table wp2d_users: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1799) in 0.01 seconds
+0037.172 (0) Table wp2d_users: finishing file(s) (2, 0.8 KB)
+0037.177 (0) Table wp2d_usermeta: Total expected rows (via COUNT): 93
+0037.178 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0037.182 (0) Table wp2d_usermeta: Rows added in this batch (next record: 99): 93 (uncompressed bytes in this segment=5979) in 0.01 seconds
+0037.188 (0) Table wp2d_usermeta: finishing file(s) (2, 2.3 KB)
+0037.195 (0) Table wp2d_actionscheduler_actions: Total expected rows (via COUNT): 86
+0037.196 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0037.200 (0) Table wp2d_actionscheduler_actions: Rows added in this batch (next record: 115): 86 (uncompressed bytes in this segment=34875) in 0.01 seconds
+0037.205 (0) Table wp2d_actionscheduler_actions: finishing file(s) (2, 3.6 KB)
+0037.208 (0) Table wp2d_actionscheduler_claims: Total expected rows (via COUNT): 0
+0037.211 (0) Table wp2d_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=637) in 0.00 seconds
+0037.215 (0) Table wp2d_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0037.219 (0) Table wp2d_actionscheduler_groups: Total expected rows (via COUNT): 2
+0037.220 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0037.224 (0) Table wp2d_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=720) in 0.01 seconds
+0037.227 (0) Table wp2d_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0037.232 (0) Table wp2d_actionscheduler_logs: Total expected rows (via COUNT): 250
+0037.233 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0037.239 (0) Table wp2d_actionscheduler_logs: Rows added in this batch (next record: 250): 250 (uncompressed bytes in this segment=21942) in 0.01 seconds
+0037.244 (0) Table wp2d_actionscheduler_logs: finishing file(s) (2, 3.2 KB)
+0037.252 (0) Table wp2d_commentmeta: Total expected rows (via COUNT): 0
+0037.254 (0) Table wp2d_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=697) in 0.01 seconds
+0037.260 (0) Table wp2d_commentmeta: finishing file(s) (2, 0.4 KB)
+0037.265 (0) Table wp2d_comments: Total expected rows (via COUNT): 1
+0037.266 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0037.269 (0) Table wp2d_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2158) in 0.01 seconds
+0037.274 (0) Table wp2d_comments: finishing file(s) (2, 0.8 KB)
+0037.280 (0) Table wp2d_links: Total expected rows (via COUNT): 0
+0037.283 (0) Table wp2d_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1322) in 0.01 seconds
+0037.287 (0) Table wp2d_links: finishing file(s) (2, 0.5 KB)
+0037.562 (0) Table wp2d_postmeta: Total expected rows (approximate): 2726
+0038.072 (0) Table wp2d_postmeta: Rows added in this batch (next record: 7511): 3251 (uncompressed bytes in this segment=15265881) in 0.78 seconds
+0038.078 (0) Table wp2d_postmeta: finishing file(s) (2, 1815.8 KB)
+0038.103 (0) Table wp2d_posts: Total expected rows (via COUNT): 415
+0038.104 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0038.131 (0) Table wp2d_posts: Rows added in this batch (next record: 1846): 415 (uncompressed bytes in this segment=1228213) in 0.05 seconds
+0038.136 (0) Table wp2d_posts: finishing file(s) (2, 31.5 KB)
+0038.139 (0) Table wp2d_term_relationships: Total expected rows (approximate): 21
+0038.142 (0) Table wp2d_term_relationships: Rows added in this batch (next record: 100000): 21 (uncompressed bytes in this segment=992) in 0.00 seconds
+0038.145 (0) Table wp2d_term_relationships: finishing file(s) (2, 0.4 KB)
+0038.149 (0) Table wp2d_term_taxonomy: Total expected rows (via COUNT): 7
+0038.149 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0038.151 (0) Table wp2d_term_taxonomy: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=1123) in 0.00 seconds
+0038.156 (0) Table wp2d_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0038.162 (0) Table wp2d_termmeta: Total expected rows (via COUNT): 3
+0038.163 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0038.164 (0) Table wp2d_termmeta: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=854) in 0.00 seconds
+0038.168 (0) Table wp2d_termmeta: finishing file(s) (2, 0.4 KB)
+0038.173 (0) Table wp2d_terms: Total expected rows (via COUNT): 7
+0038.174 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0038.175 (0) Table wp2d_terms: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=976) in 0.00 seconds
+0038.178 (0) Table wp2d_terms: finishing file(s) (2, 0.5 KB)
+0038.183 (0) Table wp2d_cfs_sessions: Total expected rows (approximate): 0
+0038.187 (0) Table wp2d_cfs_sessions: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=434) in 0.00 seconds
+0038.191 (0) Table wp2d_cfs_sessions: finishing file(s) (2, 0.3 KB)
+0038.198 (0) Table wp2d_cfs_values: Total expected rows (via COUNT): 0
+0038.200 (0) Table wp2d_cfs_values: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=781) in 0.01 seconds
+0038.204 (0) Table wp2d_cfs_values: finishing file(s) (2, 0.4 KB)
+0038.212 (0) Table wp2d_cky_banners: Total expected rows (via COUNT): 2
+0038.213 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0038.218 (0) Table wp2d_cky_banners: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=20712) in 0.01 seconds
+0038.223 (0) Table wp2d_cky_banners: finishing file(s) (2, 3.6 KB)
+0038.231 (0) Table wp2d_cky_cookie_categories: Total expected rows (via COUNT): 5
+0038.232 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0038.234 (0) Table wp2d_cky_cookie_categories: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=3895) in 0.01 seconds
+0038.239 (0) Table wp2d_cky_cookie_categories: finishing file(s) (2, 1.3 KB)
+0038.245 (0) Table wp2d_cky_cookies: Total expected rows (via COUNT): 0
+0038.248 (0) Table wp2d_cky_cookies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1175) in 0.00 seconds
+0038.253 (0) Table wp2d_cky_cookies: finishing file(s) (2, 0.5 KB)
+0038.258 (0) Table wp2d_e_events: Total expected rows (via COUNT): 1
+0038.259 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0038.262 (0) Table wp2d_e_events: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=805) in 0.01 seconds
+0038.266 (0) Table wp2d_e_events: finishing file(s) (2, 0.5 KB)
+0038.272 (0) Table wp2d_ewwwio_images: Total expected rows (via COUNT): 138
+0038.273 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0038.279 (0) Table wp2d_ewwwio_images: Rows added in this batch (next record: 172): 138 (uncompressed bytes in this segment=28517) in 0.01 seconds
+0038.284 (0) Table wp2d_ewwwio_images: finishing file(s) (2, 4.7 KB)
+0038.288 (0) Table wp2d_ewwwio_queue: Total expected rows (via COUNT): 0
+0038.291 (0) Table wp2d_ewwwio_queue: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=633) in 0.00 seconds
+0038.295 (0) Table wp2d_ewwwio_queue: finishing file(s) (2, 0.4 KB)
+0038.301 (0) Table wp2d_hfcm_scripts: Total expected rows (via COUNT): 5
+0038.302 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0038.305 (0) Table wp2d_hfcm_scripts: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=7146) in 0.01 seconds
+0038.311 (0) Table wp2d_hfcm_scripts: finishing file(s) (2, 1.6 KB)
+0038.316 (0) Table wp2d_podsrel: Total expected rows (via COUNT): 0
+0038.319 (0) Table wp2d_podsrel: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=977) in 0.00 seconds
+0038.323 (0) Table wp2d_podsrel: finishing file(s) (2, 0.4 KB)
+0038.330 (0) Table wp2d_wpforms_tasks_meta: Total expected rows (via COUNT): 3
+0038.331 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0038.333 (0) Table wp2d_wpforms_tasks_meta: Rows added in this batch (next record: 5): 3 (uncompressed bytes in this segment=913) in 0.01 seconds
+0038.338 (0) Table wp2d_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0038.347 (0) Table wp2d_yoast_indexable: Total expected rows (via COUNT): 16
+0038.348 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0038.350 (0) Table wp2d_yoast_indexable: Rows added in this batch (next record: 18): 16 (uncompressed bytes in this segment=12251) in 0.01 seconds
+0038.355 (0) Table wp2d_yoast_indexable: finishing file(s) (2, 2.7 KB)
+0038.359 (0) Table wp2d_yoast_indexable_hierarchy: Total expected rows (approximate): 14
+0038.362 (0) Table wp2d_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 14 (uncompressed bytes in this segment=1030) in 0.00 seconds
+0038.365 (0) Table wp2d_yoast_indexable_hierarchy: finishing file(s) (2, 0.4 KB)
+0038.369 (0) Table wp2d_yoast_migrations: Total expected rows (via COUNT): 23
+0038.370 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0038.372 (0) Table wp2d_yoast_migrations: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=1258) in 0.01 seconds
+0038.375 (0) Table wp2d_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0038.380 (0) Table wp2d_yoast_primary_term: Total expected rows (via COUNT): 3
+0038.381 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0038.382 (0) Table wp2d_yoast_primary_term: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1157) in 0.00 seconds
+0038.385 (0) Table wp2d_yoast_primary_term: finishing file(s) (2, 0.5 KB)
+0038.389 (0) Table wp2d_yoast_seo_links: Total expected rows (via COUNT): 28
+0038.390 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0038.392 (0) Table wp2d_yoast_seo_links: Rows added in this batch (next record: 38): 28 (uncompressed bytes in this segment=4986) in 0.00 seconds
+0038.395 (0) Table wp2d_yoast_seo_links: finishing file(s) (2, 1.3 KB)
+0038.397 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_options.table.tmpr15192.gz (1/32/fopen): adding to final database dump
+0038.405 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_options.table.gz (2/32/fopen): adding to final database dump
+0038.406 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_users.table.tmpr4.gz (3/32/fopen): adding to final database dump
+0038.407 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_users.table.gz (4/32/fopen): adding to final database dump
+0038.407 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_usermeta.table.tmpr100.gz (5/32/fopen): adding to final database dump
+0038.408 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_usermeta.table.gz (6/32/fopen): adding to final database dump
+0038.409 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_actionscheduler_actions.table.tmpr116.gz (7/32/fopen): adding to final database dump
+0038.409 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_actionscheduler_actions.table.gz (8/32/fopen): adding to final database dump
+0038.410 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_actionscheduler_claims.table.tmpr0.gz (9/32/fopen): adding to final database dump
+0038.410 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_actionscheduler_claims.table.gz (10/32/fopen): adding to final database dump
+0038.411 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_actionscheduler_groups.table.tmpr3.gz (11/32/fopen): adding to final database dump
+0038.411 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_actionscheduler_groups.table.gz (12/32/fopen): adding to final database dump
+0038.412 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_actionscheduler_logs.table.tmpr251.gz (13/32/fopen): adding to final database dump
+0038.412 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_actionscheduler_logs.table.gz (14/32/fopen): adding to final database dump
+0038.413 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_commentmeta.table.tmpr0.gz (15/32/fopen): adding to final database dump
+0038.414 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_commentmeta.table.gz (16/32/fopen): adding to final database dump
+0038.414 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_comments.table.tmpr2.gz (17/32/fopen): adding to final database dump
+0038.414 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_comments.table.gz (18/32/fopen): adding to final database dump
+0038.415 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_links.table.tmpr0.gz (19/32/fopen): adding to final database dump
+0038.415 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_links.table.gz (20/32/fopen): adding to final database dump
+0038.416 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_postmeta.table.tmpr7512.gz (21/32/fopen): adding to final database dump
+0038.440 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_postmeta.table.gz (22/32/fopen): adding to final database dump
+0038.441 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_posts.table.tmpr1847.gz (23/32/fopen): adding to final database dump
+0038.442 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_posts.table.gz (24/32/fopen): adding to final database dump
+0038.443 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_term_relationships.table.tmpr100001.gz (25/32/fopen): adding to final database dump
+0038.444 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_term_relationships.table.gz (26/32/fopen): adding to final database dump
+0038.444 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_term_taxonomy.table.tmpr8.gz (27/32/fopen): adding to final database dump
+0038.445 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_term_taxonomy.table.gz (28/32/fopen): adding to final database dump
+0038.446 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_termmeta.table.tmpr4.gz (29/32/fopen): adding to final database dump
+0038.446 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_termmeta.table.gz (30/32/fopen): adding to final database dump
+0038.447 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_terms.table.tmpr8.gz (31/32/fopen): adding to final database dump
+0038.448 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_terms.table.gz (32/32/fopen): adding to final database dump
+0038.449 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_cfs_sessions.table.tmpr1.gz (33/32/fopen): adding to final database dump
+0038.449 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_cfs_sessions.table.gz (34/32/fopen): adding to final database dump
+0038.450 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_cfs_values.table.tmpr0.gz (35/32/fopen): adding to final database dump
+0038.451 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_cfs_values.table.gz (36/32/fopen): adding to final database dump
+0038.452 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_cky_banners.table.tmpr3.gz (37/32/fopen): adding to final database dump
+0038.452 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_cky_banners.table.gz (38/32/fopen): adding to final database dump
+0038.453 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_cky_cookie_categories.table.tmpr6.gz (39/32/fopen): adding to final database dump
+0038.454 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_cky_cookie_categories.table.gz (40/32/fopen): adding to final database dump
+0038.454 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_cky_cookies.table.tmpr0.gz (41/32/fopen): adding to final database dump
+0038.455 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_cky_cookies.table.gz (42/32/fopen): adding to final database dump
+0038.455 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_e_events.table.tmpr2.gz (43/32/fopen): adding to final database dump
+0038.456 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_e_events.table.gz (44/32/fopen): adding to final database dump
+0038.456 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_ewwwio_images.table.tmpr173.gz (45/32/fopen): adding to final database dump
+0038.456 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_ewwwio_images.table.gz (46/32/fopen): adding to final database dump
+0038.457 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_ewwwio_queue.table.tmpr0.gz (47/32/fopen): adding to final database dump
+0038.457 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_ewwwio_queue.table.gz (48/32/fopen): adding to final database dump
+0038.458 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_hfcm_scripts.table.tmpr6.gz (49/32/fopen): adding to final database dump
+0038.459 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_hfcm_scripts.table.gz (50/32/fopen): adding to final database dump
+0038.459 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_podsrel.table.tmpr0.gz (51/32/fopen): adding to final database dump
+0038.460 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_podsrel.table.gz (52/32/fopen): adding to final database dump
+0038.461 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_wpforms_tasks_meta.table.tmpr6.gz (53/32/fopen): adding to final database dump
+0038.462 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_wpforms_tasks_meta.table.gz (54/32/fopen): adding to final database dump
+0038.462 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_yoast_indexable.table.tmpr19.gz (55/32/fopen): adding to final database dump
+0038.463 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_yoast_indexable.table.gz (56/32/fopen): adding to final database dump
+0038.464 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_yoast_indexable_hierarchy.table.tmpr1001.gz (57/32/fopen): adding to final database dump
+0038.464 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_yoast_indexable_hierarchy.table.gz (58/32/fopen): adding to final database dump
+0038.465 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_yoast_migrations.table.tmpr24.gz (59/32/fopen): adding to final database dump
+0038.466 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_yoast_migrations.table.gz (60/32/fopen): adding to final database dump
+0038.466 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_yoast_primary_term.table.tmpr4.gz (61/32/fopen): adding to final database dump
+0038.467 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_yoast_primary_term.table.gz (62/32/fopen): adding to final database dump
+0038.467 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_yoast_seo_links.table.tmpr39.gz (63/32/fopen): adding to final database dump
+0038.468 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db-table-wp2d_yoast_seo_links.table.gz (64/32/fopen): adding to final database dump
+0038.476 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db.gz: finished writing out complete database file (2446.8 KB)
+0038.512 (0) Total database tables backed up: 32 (backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db.gz, size: 2505618, sha1: 39bffa4a8b01e8d42d73266ce13600227ce61664, sha256: 1a5f8e3222da85f1be7ad95c1907125d821635a34fd99f361bcd5112db96ce79)
+0038.522 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip: plugins: This file has already been successfully uploaded
+0038.522 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-themes.zip: themes: This file has already been successfully uploaded
+0038.523 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-uploads.zip: uploads: This file has already been successfully uploaded
+0038.524 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-others.zip: others: This file has already been successfully uploaded
+0038.524 (0) backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db.gz: db: This file has not yet been successfully uploaded: will queue
+0038.528 (0) Saving backup history. Total backup size: 145.1 MB
+0038.531 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0038.533 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0038.533 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-6eb940244bb147faf491488ccee20510)
+0038.662 (0) Google Drive: quota usage: used=406 MB, total=15360 MB, available=14954 MB
+0038.663 (0) Google Drive: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db.gz: Attempting to upload to Google Drive (into folder id: 1_m0x2U2PJ5C9GUqXyDj96A8hj8Y0285v)
+0039.030 (0) Googledrive chunked upload: 41.8 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 26.5 / 66)
+0039.988 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0039.992 (0) Google Drive: OK: Archive backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db.gz uploaded in 1.33 seconds
+0039.992 (0) Recording as successfully uploaded: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db.gz
+0039.995 (0) Deleting local file: backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-db.gz: OK
+0039.997 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0039.998 (0) Number of backup sets in history: 3; groups (db): 1
+0040.000 (0) Examining (for databases) backup set with group_id=0, nonce=ea4140330c57, datestamp=1680757063 (Apr 06 2023 04:57:43)
+0040.001 (0) This backup set is the backup set just made, so will not be deleted.
+0040.001 (0) Examining (for databases) backup set with group_id=0, nonce=1339052a5d84, datestamp=1680671694 (Apr 05 2023 05:14:54)
+0040.001 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0040.001 (0) Examining (for databases) backup set with group_id=0, nonce=8c33deae0516, datestamp=1680584882 (Apr 04 2023 05:08:02)
+0040.001 (0) 1680584882: db: this set includes a database (backup_2023-04-04-0208_Caverna_das_Tribos_8c33deae0516-db.gz); db count is now 2
+0040.001 (0) 1680584882: db: over retain limit (2); will delete this database
+0040.001 (0) Delete file: backup_2023-04-04-0208_Caverna_das_Tribos_8c33deae0516-db.gz, service=googledrive
+0040.958 (0) Google Drive: backup_2023-04-04-0208_Caverna_das_Tribos_8c33deae0516-db.gz: Deletion successful
+0040.961 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0040.961 (0) Number of backup sets in history: 3; groups (files): 1
+0040.962 (0) Examining (for files) backup set with nonce=ea4140330c57, datestamp=1680757063 (Apr 06 2023 04:57:43)
+0040.962 (0) This backup set is the backup set just made, so will not be deleted.
+0040.963 (0) This backup set is the backup set just made, so will not be deleted.
+0040.963 (0) This backup set is the backup set just made, so will not be deleted.
+0040.963 (0) This backup set is the backup set just made, so will not be deleted.
+0040.964 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0040.964 (0) Examining (for files) backup set with nonce=1339052a5d84, datestamp=1680671694 (Apr 05 2023 05:14:54)
+0040.964 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0040.964 (0) Examining (for files) backup set with nonce=8c33deae0516, datestamp=1680584882 (Apr 04 2023 05:08:02)
+0040.964 (0) plugins: over retain limit (2); will delete this file entity
+0040.964 (0) themes: over retain limit (2); will delete this file entity
+0040.964 (0) uploads: over retain limit (2); will delete this file entity
+0040.964 (0) others: over retain limit (2); will delete this file entity
+0040.964 (0) Delete file: backup_2023-04-04-0208_Caverna_das_Tribos_8c33deae0516-plugins.zip, service=googledrive
+0040.965 (0) Delete file: backup_2023-04-04-0208_Caverna_das_Tribos_8c33deae0516-themes.zip, service=googledrive
+0040.965 (0) Delete file: backup_2023-04-04-0208_Caverna_das_Tribos_8c33deae0516-uploads.zip, service=googledrive
+0040.966 (0) Delete file: backup_2023-04-04-0208_Caverna_das_Tribos_8c33deae0516-others.zip, service=googledrive
+0041.549 (0) Google Drive: backup_2023-04-04-0208_Caverna_das_Tribos_8c33deae0516-others.zip: Deletion successful
+0041.925 (0) Google Drive: backup_2023-04-04-0208_Caverna_das_Tribos_8c33deae0516-uploads.zip: Deletion successful
+0042.573 (0) Google Drive: backup_2023-04-04-0208_Caverna_das_Tribos_8c33deae0516-themes.zip: Deletion successful
+0042.977 (0) Google Drive: backup_2023-04-04-0208_Caverna_das_Tribos_8c33deae0516-plugins.zip: Deletion successful
+0042.980 (0) This backup set is now empty; will remove from history
+0042.981 (0) Deleting log file (log.8c33deae0516.txt)
+0042.983 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0042.987 (0) Resume backup (ea4140330c57, 0): finish run
+0042.989 (0) Decremented the semaphore (fd) by 1
+0042.990 (0) Semaphore (fd) unlocked
+0042.991 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0042.995 (0) The backup apparently succeeded and is now complete
+0042.996 (0) Deleting zip manifest (backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-plugins.zip.list.tmp)
+0042.997 (0) Deleting zip manifest (backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-themes.zip.list.tmp)
+0042.998 (0) Deleting zip manifest (backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-uploads.zip.list.tmp)
+0042.998 (0) Deleting zip manifest (backup_2023-04-06-0157_Caverna_das_Tribos_ea4140330c57-others.zip.list.tmp)
+0042.999 (0) No email will/can be sent - the user has not configured an email address.
+0043.000 (0) O backup aparentemente foi bem sucedido e está completo agora.

@@ -1,0 +1,135 @@
+0000.004 () Opened log file at time: Fri, 24 Mar 2023 18:18:04 +0000 on https://cavernadastribos.com
+0000.004 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.3 WP: 6.1.1 PHP: 7.4.33 (litespeed, Linux br1000.hostgator.com.br 4.19.150-76.ELK.el7.x86_64 #1 SMP Wed Oct 7 01:33:43 CDT 2020 x86_64) MySQL: 5.7.23-23 (max packet size=268435456) WPLANG: pt_BR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 31.4M | 34M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.057 () Free space on disk containing Updraft's temporary directory: 450515 MB
+0000.107 () Restore setup, now closing connection and starting restore over AJAX.
+0000.003 () Opened log file at time: Fri, 24 Mar 2023 18:18:05 +0000 on https://cavernadastribos.com
+0000.003 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.3 WP: 6.1.1 PHP: 7.4.33 (litespeed, Linux br1000.hostgator.com.br 4.19.150-76.ELK.el7.x86_64 #1 SMP Wed Oct 7 01:33:43 CDT 2020 x86_64) MySQL: 5.7.23-23 (max packet size=268435456) WPLANG: pt_BR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 29.6M | 32M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.053 () Free space on disk containing Updraft's temporary directory: 450494.4 MB
+0000.054 () Ensuring WP_Filesystem is setup for a restore
+0000.055 () WP_Filesystem is setup and ready for a restore
+0000.068 () Restore job started. Entities to restore: db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wp2d_options","wp2d_users","wp2d_usermeta","wp2d_actionscheduler_actions","wp2d_actionscheduler_claims","wp2d_actionscheduler_groups","wp2d_actionscheduler_logs","wp2d_commentmeta","wp2d_comments","wp2d_links","wp2d_postmeta","wp2d_posts","wp2d_term_relationships","wp2d_term_taxonomy","wp2d_termmeta","wp2d_terms","wp2d_cfs_sessions","wp2d_cfs_values","wp2d_cky_banners","wp2d_cky_cookie_categories","wp2d_cky_cookies","wp2d_e_events","wp2d_ewwwio_images","wp2d_ewwwio_queue","wp2d_hfcm_scripts","wp2d_podsrel","wp2d_wpforms_tasks_meta","wp2d_yoast_indexable","wp2d_yoast_indexable_hierarchy","wp2d_yoast_migrations","wp2d_yoast_primary_term","wp2d_yoast_seo_links"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.073 () Entity: db
+0000.073 () restore_backup(backup_file=backup_2023-03-24-0309_Caverna_das_Tribos_f1e2f9c4d78f-db.gz, type=db, info=a:0:{}, last_one=1)
+0000.073 () Desempacotando o backup... (backup_2023-03-24-0309_Caverna_das_Tribos_f1e2f9c4d78f-db.gz, 2.3 Mb)
+0000.079 () Database successfully unpacked
+0000.079 () Restaurando o banco de dados (em um site grande isso pode levar um longo tempo - se o tempo se esgotar (o que pode ocorrer se a empresa de hospedagem web configurou a sua hospedagem com limitação de recursos) então você deveria utilizar um método diferente, como o phpMyAdmin)...
+0000.079 () Using direct MySQL access; value of use_mysqli is: 1
+0000.080 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.172 () Max packet size: 256 MB
+0000.172 () Entering maintenance mode
+0000.172 () Ativando modo de manutenção&#8230;
+0000.185 () Backup of: https://cavernadastribos.com
+0000.186 () Content URL: https://cavernadastribos.com/wp-content
+0000.186 () Uploads URL: https://cavernadastribos.com/wp-content/uploads
+0000.186 () Old table prefix: wp2d_
+0000.186 () Site information: multisite=0
+0000.187 () Site information: sql_mode=NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.189 () New table prefix: ll_
+0000.192 () Processing table (InnoDB): wp2d_options - will restore as: ll_options
+0000.876 () Atomic restore: dropping original table (wp2d_options)
+0000.913 () Atomic restore: renaming new table (ll_options) to final table name (wp2d_options)
+0000.917 () Restoring prior UD configuration (table: wp2d_options; keys: 4)
+0000.942 () Processing table (InnoDB): wp2d_users - will restore as: ll_users
+0000.983 () Atomic restore: dropping original table (wp2d_users)
+0000.991 () Atomic restore: renaming new table (ll_users) to final table name (wp2d_users)
+0000.995 () Processing table (InnoDB): wp2d_usermeta - will restore as: ll_usermeta
+0001.019 () Atomic restore: dropping original table (wp2d_usermeta)
+0001.027 () Atomic restore: renaming new table (ll_usermeta) to final table name (wp2d_usermeta)
+0001.031 () Processing table (InnoDB): wp2d_actionscheduler_actions - will restore as: ll_actionscheduler_actions
+0001.073 () Atomic restore: dropping original table (wp2d_actionscheduler_actions)
+0001.084 () Atomic restore: renaming new table (ll_actionscheduler_actions) to final table name (wp2d_actionscheduler_actions)
+0001.089 () Processing table (InnoDB): wp2d_actionscheduler_claims - will restore as: ll_actionscheduler_claims
+0001.132 () Atomic restore: dropping original table (wp2d_actionscheduler_claims)
+0001.139 () Atomic restore: renaming new table (ll_actionscheduler_claims) to final table name (wp2d_actionscheduler_claims)
+0001.145 () Processing table (InnoDB): wp2d_actionscheduler_groups - will restore as: ll_actionscheduler_groups
+0001.165 () Atomic restore: dropping original table (wp2d_actionscheduler_groups)
+0001.173 () Atomic restore: renaming new table (ll_actionscheduler_groups) to final table name (wp2d_actionscheduler_groups)
+0001.176 () Processing table (InnoDB): wp2d_actionscheduler_logs - will restore as: ll_actionscheduler_logs
+0001.254 () Atomic restore: dropping original table (wp2d_actionscheduler_logs)
+0001.296 () Atomic restore: renaming new table (ll_actionscheduler_logs) to final table name (wp2d_actionscheduler_logs)
+0001.308 () Processing table (InnoDB): wp2d_commentmeta - will restore as: ll_commentmeta
+0001.392 () Atomic restore: dropping original table (wp2d_commentmeta)
+0001.420 () Atomic restore: renaming new table (ll_commentmeta) to final table name (wp2d_commentmeta)
+0001.424 () Processing table (InnoDB): wp2d_comments - will restore as: ll_comments
+0001.462 () Atomic restore: dropping original table (wp2d_comments)
+0001.606 () Atomic restore: renaming new table (ll_comments) to final table name (wp2d_comments)
+0001.611 () Processing table (InnoDB): wp2d_links - will restore as: ll_links
+0001.735 () Atomic restore: dropping original table (wp2d_links)
+0001.763 () Atomic restore: renaming new table (ll_links) to final table name (wp2d_links)
+0001.768 () Processing table (InnoDB): wp2d_postmeta - will restore as: ll_postmeta
+0002.159 () Database queries processed: 50 in 2.08 seconds
+0003.059 () Atomic restore: dropping original table (wp2d_postmeta)
+0003.103 () Atomic restore: renaming new table (ll_postmeta) to final table name (wp2d_postmeta)
+0003.108 () Processing table (InnoDB): wp2d_posts - will restore as: ll_posts
+0003.456 () Atomic restore: dropping original table (wp2d_posts)
+0003.480 () Atomic restore: renaming new table (ll_posts) to final table name (wp2d_posts)
+0003.538 () Processing table (InnoDB): wp2d_term_relationships - will restore as: ll_term_relationships
+0003.622 () Atomic restore: dropping original table (wp2d_term_relationships)
+0003.654 () Atomic restore: renaming new table (ll_term_relationships) to final table name (wp2d_term_relationships)
+0003.679 () Processing table (InnoDB): wp2d_term_taxonomy - will restore as: ll_term_taxonomy
+0003.742 () Atomic restore: dropping original table (wp2d_term_taxonomy)
+0003.752 () Atomic restore: renaming new table (ll_term_taxonomy) to final table name (wp2d_term_taxonomy)
+0003.756 () Processing table (InnoDB): wp2d_termmeta - will restore as: ll_termmeta
+0003.825 () Atomic restore: dropping original table (wp2d_termmeta)
+0003.853 () Atomic restore: renaming new table (ll_termmeta) to final table name (wp2d_termmeta)
+0003.856 () Processing table (InnoDB): wp2d_terms - will restore as: ll_terms
+0003.887 () Atomic restore: dropping original table (wp2d_terms)
+0003.895 () Atomic restore: renaming new table (ll_terms) to final table name (wp2d_terms)
+0003.898 () Processing table (InnoDB): wp2d_cfs_sessions - will restore as: ll_cfs_sessions
+0003.923 () Atomic restore: dropping original table (wp2d_cfs_sessions)
+0003.937 () Atomic restore: renaming new table (ll_cfs_sessions) to final table name (wp2d_cfs_sessions)
+0003.940 () Processing table (InnoDB): wp2d_cfs_values - will restore as: ll_cfs_values
+0003.957 () Atomic restore: dropping original table (wp2d_cfs_values)
+0003.965 () Atomic restore: renaming new table (ll_cfs_values) to final table name (wp2d_cfs_values)
+0003.972 () Processing table (InnoDB): wp2d_cky_banners - will restore as: ll_cky_banners
+0003.995 () Atomic restore: dropping original table (wp2d_cky_banners)
+0004.009 () Atomic restore: renaming new table (ll_cky_banners) to final table name (wp2d_cky_banners)
+0004.012 () Processing table (InnoDB): wp2d_cky_cookie_categories - will restore as: ll_cky_cookie_categories
+0004.052 () Database queries processed: 100 in 3.97 seconds
+0004.052 () Atomic restore: dropping original table (wp2d_cky_cookie_categories)
+0004.064 () Atomic restore: renaming new table (ll_cky_cookie_categories) to final table name (wp2d_cky_cookie_categories)
+0004.067 () Processing table (InnoDB): wp2d_cky_cookies - will restore as: ll_cky_cookies
+0004.086 () Atomic restore: dropping original table (wp2d_cky_cookies)
+0004.118 () Atomic restore: renaming new table (ll_cky_cookies) to final table name (wp2d_cky_cookies)
+0004.139 () Processing table (InnoDB): wp2d_e_events - will restore as: ll_e_events
+0004.172 () Atomic restore: dropping original table (wp2d_e_events)
+0004.181 () Atomic restore: renaming new table (ll_e_events) to final table name (wp2d_e_events)
+0004.193 () Processing table (InnoDB): wp2d_ewwwio_images - will restore as: ll_ewwwio_images
+0004.258 () Atomic restore: dropping original table (wp2d_ewwwio_images)
+0004.302 () Atomic restore: renaming new table (ll_ewwwio_images) to final table name (wp2d_ewwwio_images)
+0004.307 () Processing table (InnoDB): wp2d_ewwwio_queue - will restore as: ll_ewwwio_queue
+0004.427 () Atomic restore: dropping original table (wp2d_ewwwio_queue)
+0004.463 () Atomic restore: renaming new table (ll_ewwwio_queue) to final table name (wp2d_ewwwio_queue)
+0004.594 () Processing table (InnoDB): wp2d_hfcm_scripts - will restore as: ll_hfcm_scripts
+0004.672 () Atomic restore: dropping original table (wp2d_hfcm_scripts)
+0004.686 () Atomic restore: renaming new table (ll_hfcm_scripts) to final table name (wp2d_hfcm_scripts)
+0004.704 () Processing table (InnoDB): wp2d_podsrel - will restore as: ll_podsrel
+0004.881 () Atomic restore: dropping original table (wp2d_podsrel)
+0004.916 () Atomic restore: renaming new table (ll_podsrel) to final table name (wp2d_podsrel)
+0004.941 () Processing table (InnoDB): wp2d_wpforms_tasks_meta - will restore as: ll_wpforms_tasks_meta
+0004.974 () Atomic restore: dropping original table (wp2d_wpforms_tasks_meta)
+0004.983 () Atomic restore: renaming new table (ll_wpforms_tasks_meta) to final table name (wp2d_wpforms_tasks_meta)
+0004.989 () Processing table (InnoDB): wp2d_yoast_indexable - will restore as: ll_yoast_indexable
+0005.051 () Atomic restore: dropping original table (wp2d_yoast_indexable)
+0005.084 () Atomic restore: renaming new table (ll_yoast_indexable) to final table name (wp2d_yoast_indexable)
+0005.095 () Processing table (InnoDB): wp2d_yoast_indexable_hierarchy - will restore as: ll_yoast_indexable_hierarchy
+0005.180 () Atomic restore: dropping original table (wp2d_yoast_indexable_hierarchy)
+0005.205 () Atomic restore: renaming new table (ll_yoast_indexable_hierarchy) to final table name (wp2d_yoast_indexable_hierarchy)
+0005.208 () Processing table (InnoDB): wp2d_yoast_migrations - will restore as: ll_yoast_migrations
+0005.244 () Atomic restore: dropping original table (wp2d_yoast_migrations)
+0005.267 () Atomic restore: renaming new table (ll_yoast_migrations) to final table name (wp2d_yoast_migrations)
+0005.269 () Processing table (InnoDB): wp2d_yoast_primary_term - will restore as: ll_yoast_primary_term
+0005.299 () Atomic restore: dropping original table (wp2d_yoast_primary_term)
+0005.320 () Atomic restore: renaming new table (ll_yoast_primary_term) to final table name (wp2d_yoast_primary_term)
+0005.346 () Processing table (InnoDB): wp2d_yoast_seo_links - will restore as: ll_yoast_seo_links
+0005.398 () UpdraftPlus Vault: this site has not been connected - check your settings
+0007.127 () Unlocking database and leaving maintenance mode
+0007.127 () Desativando modo de manutenção&#8230;
+0007.128 () Atomic restore: dropping original table (wp2d_yoast_seo_links)
+0007.163 () Atomic restore: renaming new table (ll_yoast_seo_links) to final table name (wp2d_yoast_seo_links)
+0007.172 () Finished: lines processed: 136 in 7.09 seconds
+0007.174 () Limpando a sujeira...
+0007.273 () Elementor's clear cache method exists and will be executed
+0007.282 () Purging cache directory: /home3/vpnchu28/cavernadastribos.com/wp-content/cache
+0007.604 () Restore successful!
+0007.604 () Restore successful
